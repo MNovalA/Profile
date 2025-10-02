@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+}
+
+.card img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  margin: 0 8px;
+  font-size: 22px;
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #333;
+  color: white;
+}
